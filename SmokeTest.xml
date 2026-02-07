@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+	    <class name="RestoreSelenium.RestoreSkills.Login" />
+	    <class name="RestoreSelenium.RestoreSkills.AddNewPatient" />
+	    <class name="RestoreSelenium.RestoreSkills.SearchAndNavigatePatientDemographic"/> 
+	    <class name="RestoreSelenium.RestoreSkills.AddNewEpisodeOfCare"/> 
+	    <class name="RestoreSelenium.RestoreSkills.EpisodeOfCare"/>
+	    <class name="RestoreSelenium.RestoreSkills.CreateDocument"/> 
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
